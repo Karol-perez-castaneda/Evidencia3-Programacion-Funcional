@@ -191,7 +191,7 @@ Esto facilita la comprensión y el mantenimiento del programa.
 
 ### 8.2 Inmutabilidad
 
-La clase ```RegistroTransporte``` utiliza atributos final.
+La clase `RegistroTransporte` utiliza atributos final.
 
 Ejemplo:
 
@@ -215,7 +215,9 @@ Las expresiones lambda permiten escribir funciones pequeñas de una manera más 
 
 Ejemplo:
 
+```java
 r -> "entrada".equalsIgnoreCase(r.getAccion())
+```
 
 Esta expresión permite filtrar los registros cuya acción sea una entrada.
 
@@ -229,32 +231,39 @@ En el proyecto se utilizan operaciones como:
 
 ```java
 filter()
+
 collect()
+
 groupingBy()
+
 map()
+
 sorted()
+
 counting()
 ```
 ---
 
 ### 8.5 Funciones de orden superior
 
-El método contarPor recibe funciones como parámetros.
+El método ```text contarPor``` recibe funciones como parámetros.
 
 Se utilizan:
 
-Predicate
+```java Predicate```
 
 y
 
-Function
+```java Function```
 
 Ejemplo:
 
+```java
 public static Map<String,Long> contarPor(
         List<RegistroTransporte> registros,
         Predicate<RegistroTransporte> filtro,
         Function<RegistroTransporte,String> clasificador)
+```
 
 Esto permite reutilizar una misma función para realizar diferentes tipos de conteos.
 
@@ -265,6 +274,7 @@ Esto permite reutilizar una misma función para realizar diferentes tipos de con
 Con los datos simulados incluidos en el proyecto se obtienen los siguientes resultados principales:
 
 ### Afluencia por estación
+```text
 Central: 4
 Universidad: 3
 Centro: 3
@@ -272,27 +282,36 @@ Industrial: 2
 Aeropuerto: 2
 Sur: 1
 Norte: 1
+```
 
 ### Uso de rutas
+```text
 R1: 7
 R2: 5
 R3: 4
+```
 
 ### Rutas críticas
 
 Se utiliza un umbral de:
 
+```text 
 5 entradas
+```
 
 Por lo tanto, una ruta que supere este valor se marca como:
 
+```text 
 CRITICA
+```
 
 Con los datos simulados:
 
+```text
 R1: CRITICA
 R2: NORMAL
 R3: NORMAL
+```
 
 Los demás resultados, como las horas pico, los patrones de viaje y el tiempo promedio, son calculados directamente por el programa.
 
@@ -302,6 +321,7 @@ Los demás resultados, como las horas pico, los patrones de viaje y el tiempo pr
 
 La estructura propuesta para el repositorio es:
 
+```text
 EA3-Creacion-Repositorio-Grupo7/
 │
 ├── README.md
@@ -321,6 +341,7 @@ EA3-Creacion-Repositorio-Grupo7/
 │
 └── video/
     └── enlace_video.txt
+```
 
 ---
 
