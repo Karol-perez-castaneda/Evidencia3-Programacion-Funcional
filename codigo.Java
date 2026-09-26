@@ -421,3 +421,10 @@ public class TecnoMovilData {
         System.out.println("======================================");
     }
 }
+    // =========================================================
+    // 7. VALIDACIÓN DE DATOS
+    // =========================================================
+
+    static boolean validarDato(String dato) {
+        return dato != null && !dato.trim().isEmpty();
+}
