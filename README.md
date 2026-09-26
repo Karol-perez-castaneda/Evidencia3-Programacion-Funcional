@@ -191,7 +191,7 @@ Esto facilita la comprensión y el mantenimiento del programa.
 
 ### 8.2 Inmutabilidad
 
-La clase `RegistroTransporte` utiliza atributos final.
+La clase `RegistroTransporte` utiliza atributos `final.`
 
 Ejemplo:
 
