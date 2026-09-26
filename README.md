@@ -349,7 +349,27 @@ EA3-Creacion-Repositorio-Grupo7/
 
 ---
 
-### 11. Conclusiones
+## 11. Anexos 
+
+### Repositorio GitHub
+
+El proyecto se encuentra disponible en el siguiente repositorio:
+
+**Repositorio:**  
+https://github.com/Karol-perez-castaneda/Evidencia3-Programacion-Funcional 
+
+---
+
+### Video de sustentación
+
+El video se encuentra disponible en el siguiente link:
+
+**Video de sustentación:**  
+LINK VIDEO: 
+
+---
+
+## 11. Conclusiones
 
 La realización de este proyecto permitió aplicar conceptos básicos de programación funcional utilizando Java.
 
