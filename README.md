@@ -246,15 +246,19 @@ counting()
 
 ### 8.5 Funciones de orden superior
 
-El método ```text contarPor``` recibe funciones como parámetros.
+El método `contarPor` recibe funciones como parámetros.
 
 Se utilizan:
 
-```java Predicate```
+```java 
+Predicate
+```
 
 y
 
-```java Function```
+```java 
+Function
+```
 
 Ejemplo:
 
