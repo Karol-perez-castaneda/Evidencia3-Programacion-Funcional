@@ -364,12 +364,12 @@ https://github.com/Karol-perez-castaneda/Evidencia3-Programacion-Funcional
 
 El video se encuentra disponible en el siguiente link:
 
-**Video de sustentación:**  
-LINK VIDEO: 
+**Link Video de sustentación:**  
+
 
 ---
 
-## 11. Conclusiones
+## 12. Conclusiones
 
 La realización de este proyecto permitió aplicar conceptos básicos de programación funcional utilizando Java.
 
